@@ -1,0 +1,118 @@
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}del,ins{text-decoration:none;}
+
+a {
+	color: #bf6217;
+}
+
+a:hover {
+	color: #000;
+}
+
+body {
+	background: #5B87AE;
+	font-family: tahoma, sans-serif;;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 1em;
+}
+
+h1 {
+	display: none;
+}
+
+fieldset > legend {
+	display: none;
+}
+
+#screen:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+#sb {
+	background: #474b8f;
+	padding: 1em;
+	position: absolute;
+	width: 15%;
+
+	-moz-border-radius: 10px;
+}
+
+#chats {
+	background: #474b8f;
+	float: right;
+	padding: 1em;
+	width: 77%;
+
+	-moz-border-radius: 10px;
+}
+
+#chats > ul {
+	overflow: auto;
+}
+
+#chats > ul > li {
+	border-bottom: 1px solid #36396d;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#chats > ul > li .name {
+	color: #bebfdf;
+	font-weight: bold;
+}
+
+#controls {
+	background: #474b8f;
+	margin-top: 3em;
+	padding: 1em;
+
+	-moz-border-radius: 10px;
+}
+
+#controls > p {
+	color: #bebfdf;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	
+	-moz-border-radius: 10px;
+}
+
+#controls > p > input {
+	background: #36396d;
+	border: 0;
+	color: #bebfdf;
+	margin-left: 1em;
+	padding: 0.5em 1em;
+	width: 80%;
+
+	-moz-border-radius: 10px;
+}
+
+#controls > div {
+	display: none;
+}
+
+#upload {
+}
+
+#upload > input {
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+#upload > iframe {
+	display: none;
+}
+
+#users {
+	color: #bebfdf;
+}
+
+#users span {
+	color: #000;
+}

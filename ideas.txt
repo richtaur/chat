@@ -1,0 +1,26 @@
+Commands:
+
+	/best <words>
+		Ads those words to the tgen best file
+
+	/timezone
+	/tz
+		Changes the timezone, ie: "/tz -8" for PST
+
+Other Ideas:
+
+	- use icons instead of or as well as (idle X minutes)
+	- go idle after not having the window focused for a minute or something
+	- mobile version for blackberry/iphone
+	- timezone is off (have javascript send?)
+	- pull in Twitter streams dynamically
+
+	+ up arrow scrolls through message history
+	+ upload files with a button
+	+ remember names with cookies
+	+ themes (remember with cookies)
+
+Bugs:
+	- entered the room not working
+	- left the room not working
+	- [tgen 2] should be converted on-the-fly (right now is dynamically randomized)
