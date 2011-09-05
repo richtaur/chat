@@ -1,6 +1,6 @@
 <?php
 
-$root = '/home/www/richtaur.com/subdomains/chat/';
+$root = '/home/richtaur/dev/projects/chat/';
 
 require_once($root . 'env.php');
 require_once($root . 'common/chat.php');

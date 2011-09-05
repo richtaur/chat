@@ -11,7 +11,7 @@ $config['Core'] = Array(
 $config['DB'] = Array(
 
 	'Name'   => 'chat',
-	'Pass'   => '*********',
+	'Pass'   => '*****',
 	'Server' => 'localhost',
 	'User'   => 'chat'
 
@@ -19,9 +19,9 @@ $config['DB'] = Array(
 
 $config['Path'] = Array(
 
-	'Custom_Local' => '/home/www/richtaur.com/subdomains/chat/common/',
-	'Exec_Local' => '/home/www/richtaur.com/subdomains/chat/exec/',
-	'Pages_Local' => '/home/www/richtaur.com/subdomains/chat/pages/',
-	'MHP_Local' => '/home/www/richtaur.com/subdomains/chat/mhp/'
+	'Custom_Local' => '/home/richtaur/dev/projects/chat/common/',
+	'Exec_Local' => '/home/richtaur/dev/projects/chat/exec/',
+	'Pages_Local' => '/home/richtaur/dev/projects/chat/pages/',
+	'MHP_Local' => '/home/richtaur/dev/projects/chat/mhp/'
 
 );

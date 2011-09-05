@@ -4,7 +4,7 @@ class Chat {
 
 	const
 		DEFAULT_NAME = 'Guest',
-		DIR_UPLOADS_LOCAL = '/home/www/richtaur.com/subdomains/chat/htdocs/static/uploads/',
+		DIR_UPLOADS_LOCAL = '/home/richtaur/dev/projects/chat/htdocs/static/uploads/',
 		DIR_UPLOADS_REMOTE = '/static/uploads/',
 		FORMAT_DATE = 'Y/m/d',
 		MAX_IDLE = 600, // 10 minutes

@@ -44,7 +44,6 @@ Cereal
 Champion
 Chauffeur
 Chief
-Child
 Chocolate
 Chipped
 Chum
@@ -99,8 +98,6 @@ Female
 Fetish
 Fiberoptic
 Flag
-Flamer
-Flaming
 Flat
 Flawless
 Floppy
@@ -128,7 +125,6 @@ Grim
 Gun
 Haggard
 Hell
-Hetero
 Ho
 Hole
 Hollow
@@ -142,9 +138,6 @@ Industrial
 Invisible
 Ironic
 Itchy
-Jap
-Japanese
-Jew
 Judgment
 Kid
 Killer
@@ -161,7 +154,6 @@ Leviathan
 Liquid
 Loose
 Love
-Lovin'
 Lucky
 Magical
 Magnet
@@ -169,7 +161,6 @@ Male
 Man
 Massacre
 Mega
-Mexican
 Midnight
 Mister
 Molten
@@ -177,9 +168,9 @@ Money
 Moon
 Mountain
 Mouse
-Mr
-Mrs
-Ms
+Mr.
+Mrs.
+Ms.
 Muff
 Mullet
 Mystical
@@ -223,20 +214,11 @@ Puma
 Puppy
 Pure
 Purse
-Pussy
 Quad
 Quality
-Queer
-Racist
-Rape
-Raper
 Rapid
-Raping
 Remarkable
 Reservoir
-Retard
-Retard-Strong
-Retarded
 Retcon
 Revival
 River
