@@ -1,2 +1,5 @@
 .archive
 .DS_Store
+
+common/tgen.txt
+common/tgen_best.txt
