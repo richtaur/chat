@@ -21,7 +21,7 @@
 		<fieldset id="commands">
 			<legend>commands</legend>
 			<ul>
-				<li>/clear</li>
+				<li id="clear">/clear</li>
 				<li>/echo</li>
 				<li>/help</li>
 				<li>/history</li>
@@ -75,7 +75,6 @@
 </form>
 
 <script src="/static/js/jquery-1.2.6.min.js" type="text/javascript"></script>
-<script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
 <script src="/static/js/chat.js?v<?= Chat::VERSION; ?>" type="text/javascript"></script>
 <script type="text/javascript">
 <!--//

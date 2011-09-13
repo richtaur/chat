@@ -1,6 +1,7 @@
 Chat = (function() {
 
 	var DEFAULT_NAME = 'Guest',
+		DEFAULT_THEME = 'default',
 		HEIGHT_BUFFER = 108,
 		KEY_UP = 38,
 		KEY_DN = 40,
@@ -22,13 +23,14 @@ Chat = (function() {
 
 	var init = function(params) {
 
-		var name = $('#name');
-
 		ops = params || {};
 		ops.focus = true;
 		ops.title = ops.title || document.title;
 
-		if (!name.val()) name.val($.cookie(ops.roomName + '_name') || DEFAULT_NAME);
+		var name = $('#name');
+		if (!name.val()) {
+			name.val(localStorage.getItem('name') || DEFAULT_NAME);
+		}
 		user.name = name.val();
 
 		addEvents();
@@ -74,7 +76,7 @@ Chat = (function() {
 		// Change name
 		$('#name').change(function() {
 			user.name = document.getElementById('name').value || DEFAULT_NAME;
-			$.cookie(ops.roomName + '_name', user.name);
+			localStorage.setItem('name', user.name);
 		});
 
 		// Prevent scrolling when looking around
@@ -94,6 +96,11 @@ Chat = (function() {
 
 		// Upload a file
 		$('#upload > input').change(upload);
+
+		// Clear button
+		$("#clear").click(function() {
+			document.getElementById('chats').getElementsByTagName('ul')[0].innerHTML = '<li>Messages cleared</li>';
+		});
 
 	};
 
@@ -462,7 +469,7 @@ Chat = (function() {
 	var setTheme = function(theme) {
 
 		if (!theme) {
-			theme = $.cookie(ops.roomName + '_theme') || 'default';
+			theme = localStorage.getItem('theme') || DEFAULT_THEME;
 			systemMessage(printf('Your theme is currently "%s"', theme));
 			return;
 		}
@@ -471,7 +478,7 @@ Chat = (function() {
 			case 'default':
 			case 'experimental':
 			case 'josh':
-				$.cookie(ops.roomName + '_theme', theme);
+				localStorage.setItem('theme', theme);
 				killCSS();
 				loadCSS('/static/css/' + theme + '.css');
 				systemMessage('Loading theme &#8230;');
